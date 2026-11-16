@@ -122,9 +122,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2910293834688209606}
   - component: {fileID: 6641658497538102447}
+  - component: {fileID: 4115509082374179125}
   m_Layer: 0
   m_Name: CheckpointRing
-  m_TagString: Untagged
+  m_TagString: Ring
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,7 +138,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839854099448866008}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2.59, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
@@ -168,6 +169,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2059ac95583195e46981363fb204f71f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CheckpointRing
+--- !u!65 &4115509082374179125
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839854099448866008}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 1, z: 0.3}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3104111834328706960
 GameObject:
   m_ObjectHideFlags: 0
